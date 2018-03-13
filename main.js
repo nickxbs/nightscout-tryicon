@@ -58,10 +58,10 @@ app.on('ready', () => {
 
     // Call this again for Linux because we modified the context menu
     appIcon.setContextMenu(contextMenu)
-    let total = 100
+    let total = 555
     setInterval(() => {
         let trendChar = getTrend('SingleDown');
-        return updateTrayIconWithCode((total++ % 400).toString(), appIcon)
+        return updateTrayIconWithCode((total++ % 600) + '', appIcon)
     }, 1000);
 
 })
