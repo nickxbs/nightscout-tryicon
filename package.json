@@ -1,0 +1,24 @@
+{
+    "name": "nightscout-tryicon",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": "https://github.com/nickxbs/nightscout-tryicon",
+    "keywords": [
+        "Electron",
+        "nightscout",
+        "tryicon"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "~1.8.2"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "text2png": "git+https://github.com/nickxbs/text2png.git"
+    }
+}
